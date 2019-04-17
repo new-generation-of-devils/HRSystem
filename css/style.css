@@ -65,16 +65,16 @@ th, td {
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2
+    background-color: #50c878;
 }
 
 th {
-    background-color: #188DFF;
+    background-color: #50c878;
     color: white;
 }
 
 .button {
-    background-color: #ACACA2; /* Green */
+    background-color: #50c878; /* Green */
     border: none;
     color: white;
     padding: 10px 20px;
@@ -87,8 +87,8 @@ th {
     border-radius: 8px;
 }
 
-h2 {
-    background-color: blue;
+.dick h2 {
+    background-color: #50c878;
     color: white;
 }
 
@@ -128,7 +128,7 @@ label {
 }
 
 input[type=button]:hover {
-    background-color: #45a049;
+    background-color: #50c878;
 }
 
 div {

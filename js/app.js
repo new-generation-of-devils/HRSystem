@@ -120,7 +120,7 @@ function drawForm(idx) {
 function drawSearch() {
     var htmlContent = '';
     htmlContent += "<input type='search' value='' id='txtSearch'>";
-    htmlContent += '<button type="button" class="btn btn-success" onclick="searchTable()">Success</button>'
+    htmlContent += '<button type="button" class="btn btn-success py-2 m-2" onclick="searchTable()">Search</button>'
     document.getElementById("searchDiv").innerHTML = htmlContent;
 }
 function searchTable() {
