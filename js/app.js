@@ -1,5 +1,6 @@
 //emp.html/////////////////////////
 var empArray = [];
+var searcharr = [];
 drawGrid();
 function toggleView() {
     var btn = document.getElementById("btnNew").innerText;
@@ -50,10 +51,6 @@ function drawGrid(specialArry) {
         htmlContent += "<td>" + specialArry[i].firstname + "</td>";
         htmlContent += "<td>" + specialArry[i].lastname + "</td>";
         htmlContent += "<td>" + specialArry[i].salary + "</td>";
-        htmlContent += "<td>" +
-            "<a href='#' onclick='deleteEmp(" + i + ");'> <img src='imgs/delete.png' /> </a> " +
-            "<a href='#' onclick='EditEmp(" + i + ")'> <img src='imgs/edit.png' /> </a>"
-            + "</td > ";
         htmlContent += "</tr>";
     }
 
@@ -120,6 +117,12 @@ function drawForm(idx) {
 
     document.getElementById("myDiv").innerHTML = htmlContent;
 }
+function drawSearch() {
+    var htmlContent = '';
+    htmlContent += "<input type='search' value='' id='txtSearch'>";
+    htmlContent += '<button type="button" class="btn btn-success" onclick="searchTable()">Success</button>'
+    document.getElementById("searchDiv").innerHTML = htmlContent;
+}
 function searchTable() {
     var newArr = [];
     var key = document.getElementById("txtSearch").value;
@@ -136,11 +139,4 @@ function searchTable() {
     else
         drawGrid();
 
-}
-
-function drawSearch() {
-    var htmlContent = '';
-    htmlContent += "<label for='txtSearch' >Search:</label>";
-    htmlContent += "<input type='search' value='' id='txtSearch' onkeyup='searchTable()' >";
-    document.getElementById("searchDiv").innerHTML = htmlContent;
 }
