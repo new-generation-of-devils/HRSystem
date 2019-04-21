@@ -1,0 +1,315 @@
+
+*{
+    margin: 0px ; 
+    padding: 0px ;
+    transition: all 2s;
+}
+
+body {
+  font-family: "segoe ui light";
+    background-color: #fff ;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+        font-size: 100px;
+    letter-spacing: -3px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+        font-size: 38px;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 78px ;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.25;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px ; 
+    font-weight: 300;
+}
+label{
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    cursor: zoom-in;
+}
+
+#Edit {
+    margin-top: 40px;
+}
+
+#Edit .Dad {
+        background-image: linear-gradient(to bottom right, orange , white);
+}
+
+#AddDark , #EditDark , #TaskDark , #PerDark {
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(105,105,105,.8);
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+.AdDark , .EdDark , .TsDark , .PrDark {
+    width: 100%; 
+    height: 100%;
+    position: relative;
+}
+.add {
+    background-image: linear-gradient(to bottom right, orange , white);
+}
+
+
+.add button , #EmpInfo button,#EmpInfo1 button , .control button , #TaskInfo button , #PerInfo button ,#Edit button , .butn , #FindIdD button , #FindIdU button , #FindIdT button , #FindIdP button{
+    background-color: #50c878;
+    font-size: 15px;
+}
+#EmpInfo,#EmpInfo1 , #TaskInfo , #PerInfo {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    z-index: 1000000;
+}
+#FindIdDDark,#FindIdUDark , #FindIdTDark ,#FindIdPDark{
+    width: 100%;
+    height: 100% ; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(105,105,105,.8);
+}
+#FindIdDDark .FD ,#FindIdUDark .FU ,#FindIdTDark  .FT ,#FindIdPDark .FP {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#FindIdD , #FindIdU , #FindIdT ,#FindIdP {
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    z-index: 1000000;
+    border: yellow solid 2px;
+    border-radius: 3%;
+}
+#EmpInfo .Dad,#EmpInfo1 .Dad , #TaskInfo .Dad , #PerInfo .Dad , #FindIdD .Dad , #FindIdU .Dad , #FindIdT .Dad , #FindIdP .Dad {
+    background-image: linear-gradient(to bottom right, orange , white);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#PerInfo .Dad .Image {
+    height: 35% ;
+    width: 20%;
+    position: absolute;
+    top: 4px;
+    left: 40%;
+    z-index: 1000;
+}
+#PerInfo .Dad .Image img {
+    width: 100%;
+    height: 85%;
+}
+#PerInfo .Dad .S {
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+#PerInfo .Dad .S h5 {
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Section 3 Css */
+
+.Viewer div.container {
+    width: 100%;
+}
+
+.Viewer header,
+.Viewer footer {
+    color: white;
+    clear: left;
+    text-align: center;
+}
+
+.Viewer footer {
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #188AAF;
+}
+
+.Viewer header img {
+    width: 100%;
+    height: 180px;
+}
+
+.Viewer nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+   .Viewer nav ul {
+        list-style-type: none;
+        padding: 1em;
+    }
+
+       .Viewer nav ul a {
+            text-decoration: none;
+        }
+
+.Viewer article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.Viewer p {
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+
+.EmplInfo{
+   background-image: linear-gradient(to bottom right, orange , white);
+}
+
+.Viewer table {
+    border-collapse: collapse;
+    background-image: linear-gradient(to bottom right, orange , white);
+    width: 100%;
+}
+
+.Viewer th,.Viewer td {
+    text-align: left;
+    padding: 8px;
+}
+
+.Viewer tr:nth-child(even) {
+    
+}
+
+.Viewer th {
+    background-color: #50c878;
+    color: white;
+}
+
+.Viewer .button {
+    background-color: #50c878; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.Viewer .dick h2 {
+    background-color: #50c878 !important;
+    color: white !important;
+    font-size: 28px;
+}
+
+.Viewer input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Viewer input[type=search] {
+    width: 25%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Viewer input[type=button] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Viewer label {
+    width: 30%;
+}
+
+.Viewerinput[type=button]:hover {
+    background-color: #50c878;
+}
+
+.Viewer div {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

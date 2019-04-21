@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "HR-Sys",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Devil's Team",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "engine": "^1.0.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.6.1",
+    "template": "^0.17.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}

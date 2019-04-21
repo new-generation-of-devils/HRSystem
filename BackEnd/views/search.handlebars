@@ -1,0 +1,46 @@
+ 
+    
+    <!-- Start of Section 3  -->
+    
+    
+    <section class="Viewerk m-5">
+    <div class="container EmplInfo">
+            <div class="dick text-left"><h2 class="border rounded p-1">Employees Data</h2></div>
+            <div>
+                <div id="SearchD"></div>
+            </div>
+            <br />
+
+           
+       
+        <table class="table table-strip">
+        <thead>
+            <tr>
+                <td>id</td>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Department</td>
+                <td>Status</td>
+                <td>City</td>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each gigs}}
+                <tr>
+                    <td>{{id}}</td>
+                    <td>{{EmployeeName}}</td>
+                    <td>{{EmployeeAge}}</td>
+                    <td>{{EmployeeDep}}</td>
+                    <td>{{EmployeeState}}</td>
+                    <td>{{EmployeeCity}}</td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+
+        </div>
+    </section>
+
+   
+    
+    <!-- End of Section 3  -->
